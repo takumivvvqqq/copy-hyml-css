@@ -1,35 +1,20 @@
-header{
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.tn-on header-box aimate{
+.header-box{
   background-color: #ffffff;
-}
-
-.header-type2 header animate{
-
+  padding-top: 10px;
 }
 
 .header-info{
-    max-width: 75%;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 1px;
-    letter-spacing: 1px;
-    margin: 0 auto;
-
+  margin: 0px 223px;
+  text-align: center;
+  padding: 50px 0px;
 }
 
 .tn-logo-size{
-  margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 300px;
+  height: 50px;
+  font-size: 240%!important;
+}
+
+.header-fontstyle{
+ color: #9acc1e;
 }
