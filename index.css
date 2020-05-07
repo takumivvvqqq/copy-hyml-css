@@ -11,10 +11,30 @@
 
 .tn-logo-size{
   width: 300px;
-  height: 50px;
+  height: 40px;
   font-size: 240%!important;
 }
 
 .header-fontstyle{
  color: #9acc1e;
+}
+
+.font-size{
+  font-size: 39px;
+  text-decoration: none;
+}
+
+.menu-list{
+  list-style-type: none;
+  margin: 0 auto;
+  display: table;
+}
+
+.menu-item{
+  position: relative;
+  line-height: 1.6rem;
+  display: inline-block;
+  text-align: center;
+  padding: 12px  25px;
+  font-weight: 400;
 }
