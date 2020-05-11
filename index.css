@@ -38,3 +38,20 @@
   padding: 12px  25px;
   font-weight: 400;
 }
+
+.main-container{
+  width: 760px;
+  height: 2225px;
+}
+.list-box{
+  height: 100%;
+  width: 50%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.list-item{
+  height: 350px;
+  width: 370px;
+  padding: 0 10px 10px 0;
+}
