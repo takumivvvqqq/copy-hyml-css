@@ -56,7 +56,7 @@
   margin: 0px 0px;
 }
 .list-inner{
-  border-radius: 10px;
+  border-radius: 3px;
   margin: 0px 20px 20px 0px;
 }
 
@@ -65,13 +65,13 @@
   width: 100%;
   margin: 10px 0px 0px 0px ;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
-  border-radius: 10px;
+  border-radius:3px;
 }
 
 .list-image{
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .dayly{
@@ -89,7 +89,7 @@
   height: 100%;
   display: block;
   position: relative;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 .post{
   top: 11px;
@@ -98,16 +98,16 @@
   padding: 5px 10px ;
   margin: 0px 0px;
   font-weight: 400;
-  background-color: #9acc1e!important;
+  background-color: #9acc1e;
   color: white;
-  border-radius: 10px;
+  border-radius: 3px;
   position: absolute;
   width: 66px;
-  Z-index: 1!important;
+  Z-index: 1;
 } 
 
 .list-message{
- padding: 5px 10px;
+ padding: 10px 17px 25px 17px;
  line-height: 1.3rem;
  font-weight: 400;
 }
@@ -115,4 +115,53 @@
 .h3{
   font-size: 14px;
   font-weight: 400;
+}
+
+.page-top{
+  display: block;
+  width: 70%;
+  margin: 0px 0px; 
+}
+
+.page-top-current{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.current1{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin: 0px 4px;
+  position: relative;
+  background-color: #0d0015;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+}
+
+.current2{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin: 0px 4px;
+  position: relative;
+  color: #aaa;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+  text-align: center;
+  align-items: center;
+  font-size: 100%;
+}
+
+.math{
+  display: inline-block;
+  bottom: 5px;
+  padding: 8px 0px 0px 0px;
 }
