@@ -74,6 +74,7 @@
   border-radius: 2px;
   background: #fff;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.18);
+  padding: 30px 30px;
   margin-bottom: 20px;
   font-weight: 400;
   font-size: 0.95rem;
@@ -101,4 +102,27 @@
   margin-top: 10px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
   background: #fff;
+}
+
+.myname {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center
+}
+
+.myjob{
+  font-size: 0.65rem;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.myintro-p{
+  text-align: left;
+  margin-top: 40px;
+  font-size: 0.85rem;
 }
