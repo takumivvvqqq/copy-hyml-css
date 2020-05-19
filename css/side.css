@@ -116,13 +116,82 @@
   text-align: center
 }
 
-.myjob{
+.myjob {
   font-size: 0.65rem;
   color: rgba(0, 0, 0, 0.35);
 }
 
-.myintro-p{
+.myintro-p {
   text-align: left;
   margin-top: 40px;
   font-size: 0.85rem;
+}
+
+.profile-link a {
+  display: block;
+  text-align: center;
+  padding: 7px 10px;
+  background: #aaa;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 3px double #fff;
+  font-size: 0.65rem;
+  color: #fff;
+}
+
+/* CSS横幅未調整 */
+
+.profile-sns-manu {
+  width: 350px;
+  height: 60px;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  background: #2b2b2b;
+  padding: 15px 0;
+  background-color: #9acc1e;
+}
+
+.profile-sns-menu-title {
+  text-align: center;
+  width: 100%;
+  font-size: 0.85rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.profile-sns-menu-title ul {
+  list-style: none;
+}
+
+.profile-sns-menu-title-ul ul {
+  display: list-item;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.profile-sns-menu-title-ul li {
+  display: list-item;
+  list-style: none;
+  float: left;
+}
+
+.profile-sns-menu-title-ul li a {
+  display: list-item;
+  list-style: none;
+  width: 34px;
+  height: 32px;
+  color: #fff;
+  margin: 0 4px;
+  font-size: 15px;
+  overflow: hidden;
+  text-decoration: none !important;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.18);
 }
