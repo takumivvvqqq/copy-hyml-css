@@ -169,12 +169,14 @@
   list-style: none;
 }
 
-.profile-sns-menu-title-ul ul {
+.profile-sns-menu-title-ul{
   display: list-item;
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
+  margin: 0 20;
+  padding: 0 0;
 }
 
 .profile-sns-menu-title-ul li {
