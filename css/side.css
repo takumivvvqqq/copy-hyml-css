@@ -201,10 +201,13 @@
 
 .recent {
   height: 413px;
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .recent-box {
   height: 350px;
+  width: 290px;
   padding: 30px 30px;
   border-radius: 2px;
   background: #fff;
