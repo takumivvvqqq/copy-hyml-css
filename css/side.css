@@ -261,9 +261,7 @@
   margin-bottom: 15px;
 }
 
-.category_form {
-  
-}
+.category_form {}
 
 .category_form_select {
   background-color: rgba(192, 192, 192, 0.15);
@@ -274,4 +272,42 @@
   font-size: 0.85rem;
   color: #888;
   border: none;
+}
+
+.tag_box {
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.18);
+  padding: 30px 30px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.tag_title{
+  border-color: #0d0015 font-size: 1.1rem;
+  border-bottom: 2px solid #2b2b2b;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+}
+
+.tag_area{
+  height: 290px;
+  width: 87px;
+}
+
+.tag_link{
+  display: inline-table;
+    max-width: 100%;
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    margin-right: 1px;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.55rem ;
+    text-decoration: none;
+    letter-spacing: 0;
 }
