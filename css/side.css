@@ -641,6 +641,11 @@ footer {
   padding: 0;
 }
 
+.footer_wedget_right_entry_list_tag {
+ width: 395px;
+ height: 95px;
+}
+
 .footer_wedget_right_item_text {
   position: relative;
   height: 55px;
