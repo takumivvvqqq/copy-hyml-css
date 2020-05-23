@@ -542,18 +542,22 @@ footer {
 }
 
 .footer_wedget_center1{
-  height: 580px;
+  height: 500px;
   width: 150px;
   margin-left: 45px;
   float: left;
 }
 
 .footer_wedget_center2{
-  height: 580px;
+  height: 500px;
   width: 150px;
   margin-left: 45px;
   float: left;
 
+}
+
+.footer_wedget_center_box{
+  padding: 25px;
 }
 
 .footer_wedget_center_category{
