@@ -498,7 +498,7 @@ footer {
   font-size: 13px;
 }
 
-.footer_wedget_left_tag_box{
+.footer_wedget_left_tag_box {
   color: #fff;
   border-color: #9acc1e;
   border-left: 3px solid #9acc1e;
@@ -506,7 +506,35 @@ footer {
   padding-right: 5px;
   font-size: 0.95rem;
   line-height: 1.15rem ;
+  margin-top: 90px;
   margin-bottom: 15px;
+}
+
+.footer_wedget_left_tag_top {
+  
+}
+
+.footer_wedget_left_tag_area {
+  width: 315px;
+  height: 90px;
+}
+
+.footer_wedget_left_tag_area a {
+  float: left;
+}
+
+.tag_link_footer {
+  float: left;
+  max-width: 100%;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  margin-right: 1px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.55rem;
 }
 
 .footer_inner {
