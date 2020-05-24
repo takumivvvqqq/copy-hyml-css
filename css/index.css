@@ -1,7 +1,6 @@
-
 main {
- width: 95%;
- display: flex;
+  width: 95%;
+  display: flex;
 }
 
 .header-box {
@@ -22,14 +21,13 @@ main {
 }
 
 .header-fontstyle {
- color: #9acc1e;
+  color: #9acc1e;
 }
 
 .font-size {
   font-size: 39px;
   text-decoration: none;
 }
-
 
 .main-box {
   margin: 0 0 0 30px;
@@ -54,11 +52,9 @@ main {
   line-height: 1.6rem;
   display: inline-block;
   text-align: center;
-  padding: 12px  25px;
+  padding: 12px 25px;
   font-weight: 400;
 }
-
-
 
 .list-box {
   width: 48%;
@@ -79,9 +75,9 @@ main {
 .list-item {
   height: 368px;
   width: 367px;
-  margin: 10px 0px 0px 0px ;
+  margin: 10px 0px 0px 0px;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
-  border-radius:3px;
+  border-radius: 3px;
 }
 
 .list-image {
@@ -95,7 +91,7 @@ main {
   font-size: 0.75rem;
   font-weight: 400;
   bottom: 5px;
-  color: #888 ;
+  color: #888;
   width: 90%;
   text-align: right;
   padding: 0px 0px;
@@ -113,7 +109,7 @@ main {
   top: 11px;
   left: 11px;
   font-size: 0.55rem;
-  padding: 5px 10px ;
+  padding: 5px 10px;
   margin: 0px 0px;
   font-weight: 400;
   background-color: #9acc1e;
@@ -122,15 +118,15 @@ main {
   position: absolute;
   width: 66px;
   Z-index: 1;
-} 
-
-.list-message {
- padding: 10px 17px 25px 17px;
- line-height: 1.3rem;
- font-weight: 400;
 }
 
-.h3{
+.list-message {
+  padding: 10px 17px 25px 17px;
+  line-height: 1.3rem;
+  font-weight: 400;
+}
+
+.h3 {
   font-size: 14px;
   font-weight: 400;
 }
@@ -138,7 +134,7 @@ main {
 .page-top {
   display: block;
   width: 70%;
-  margin: 0px 0px; 
+  margin: 0px 0px;
   padding-top: 20px;
   padding-left: 100px;
 }
@@ -184,4 +180,34 @@ main {
   display: inline-block;
   bottom: 5px;
   padding: 8px 0px 0px 0px;
+}
+
+.page_top {
+  left: 1150px;
+  bottom: 25px;
+  position: fixed;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  box-sizing: border-box;
+}
+
+.totop {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  line-height: 0;
+  border-radius: 30px;
+  background-color: #393542;
+  height: 45px;
+  font-size:15px;
+  /* padding-top: 20px ; */
+}
+
+.totop i {
+  text-align: center;
+  line-height: center;
+  padding-top: 5px; 
 }
