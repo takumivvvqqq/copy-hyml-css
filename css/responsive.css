@@ -1,7 +1,5 @@
-@media (min-width: 1240px){
- .page_top {
-    right: 22px;
-    bottom: 22px;
-    z-index: 9999;
+@media (min-width: 1000px){
+ .wrapper  {
+    width: 100%;
 }
 }

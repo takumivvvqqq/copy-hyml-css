@@ -3,9 +3,19 @@ main {
   display: flex;
 }
 
+.wrapper{
+  width: 125%;
+}
+
+header {
+  width: 100%;
+  
+}
+
 .header-box {
   background-color: #ffffff;
   padding-top: 10px;
+  width: 100%;
 }
 
 .header-info {
@@ -313,14 +323,14 @@ footer {
 
 .footer_wedget_center1 {
   height: 500px;
-  width: 150px;
+  width: 35%;
   margin-left: 45px;
   float: left;
 }
 
 .footer_wedget_center2 {
   height: 500px;
-  width: 150px;
+  width: 35%;
   margin-left: 45px;
   float: left;
 }
